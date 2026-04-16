@@ -1,26 +1,29 @@
-# churn-analytics-python-sql-powerbi
-Customer Churn & Revenue Intelligence Dashboard
+# 📊 Customer Churn Analysis
 
-Business Problem
-Subscription-based companies lose revenue due to customer churn. This project analyzes telecom customer data to identify churn drivers, quantify revenue at risk, and provide actionable retention insights through an executive dashboard.
+## 📌 Project Overview
+This project analyzes customer churn behavior in a telecom company to identify key drivers of customer attrition and revenue loss.
 
-Objectives
-- Calculate churn rate and revenue exposure
-- Identify key churn drivers (contract type, tenure, payment method)
-- Segment customers by revenue risk
-- Build an interactive Power BI dashboard for decision-makers
-- Develop a baseline churn prediction model
+## 🛠 Tools Used
+- Python (Data Cleaning & Feature Engineering)
+- SQL (Data Analysis)
+- Power BI (Data Visualization)
 
-Tools & Technologies
--Python – Data cleaning, feature engineering, churn analysis, logistic regression
--SQL – KPI calculations and business queries
--Power BI – Executive dashboard & interactive visualizations
+## 🔄 Workflow
+Raw Data → Data Cleaning (Python) → Analysis (SQL) → Dashboard (Power BI)
 
-Key Insights
--Month-to-month contracts show significantly higher churn
--Electronic check payments are associated with higher churn probability
--Short-tenure customers are at highest risk
--High-value churners contribute disproportionately to revenue loss
+## 📊 Key Insights
+- Month-to-month customers have highest churn (~43%)
+- New customers (0–1 year) are most likely to churn (~47%)
+- Electronic check users show higher churn behavior
+- ~$139K revenue is at risk due to churn
 
-Business Impact
-This analysis helps prioritize retention strategies by identifying high-risk, high-revenue customers and uncovering behavioral churn patterns.
+## 💡 Business Recommendations
+- Encourage long-term contracts
+- Improve onboarding for new customers
+- Target high-risk segments with retention strategies
+
+## 📁 Files Included
+- Cleaned dataset
+- Python notebook
+- SQL queries
+- Power BI dashboard
