@@ -9,7 +9,7 @@ This project analyzes customer churn behavior in a telecom company to identify k
 - Power BI (Data Visualization)
 
 ## 🔄 Workflow
-Raw Data → Data Cleaning (Python) → Analysis (SQL) → Dashboard (Power BI)
+Raw Data -> Data Cleaning (Python) -> Analysis (SQL) -> Dashboard (Power BI)
 
 ## 📊 Key Insights
 - Month-to-month customers have highest churn (~43%)
